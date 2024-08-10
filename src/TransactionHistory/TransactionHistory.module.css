@@ -1,0 +1,40 @@
+.transactionContainer {
+  margin-top: 15px;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.transactionHead {
+}
+
+.transactionHeadList {
+  background-color: black;
+}
+
+.transactionHeadItem {
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  width: calc(100% / 4);
+}
+
+.transactionList {
+  border: 2px solid black;
+}
+
+.transactionItem {
+  color: black;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  padding-left: 32px;
+  width: calc(100% / 4);
+}
+
+.transactionList:nth-child(2n) {
+  background-color: grey;
+}

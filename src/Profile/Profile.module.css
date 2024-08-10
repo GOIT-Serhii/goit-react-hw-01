@@ -1,0 +1,78 @@
+.porfileContainer {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: block;
+}
+
+.imgDscrWrap {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profileImg {
+  display: block;
+}
+
+.profileTextName {
+  color: black;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.profileText {
+  color: grey;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.profileList {
+  width: 100%;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.profileListItem {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 24px) / 2);
+  border: 2px solid grey;
+  border-bottom: black;
+  background-color: lightgrey;
+  overflow: hidden;
+}
+
+.profileListItem:first-child {
+  border-left: black;
+}
+
+.profileListItem:last-child {
+  border-right: black;
+}
+
+.profileItemText {
+  color: black;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.profileItemAmount {
+  color: black;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+.container {
+}
+
+.image {
+}
+
+.textName {
+  color: black;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.isOnline {
+  color: green;
+}
+
+.isOffline {
+  color: red;
+}

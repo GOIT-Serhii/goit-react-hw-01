@@ -1,0 +1,15 @@
+.friendsList {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.friendsItem {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: calc((100% - 32px) / 4);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
