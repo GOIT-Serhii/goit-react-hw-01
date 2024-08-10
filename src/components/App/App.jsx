@@ -2,9 +2,9 @@ import Profile from "../Profile/Profile";
 import FriendsList from "../FriendsList/FriendsList";
 import TransactionHistory from "../TransactionHistory/TransactionHistory";
 
-import userData from "../userData.json";
-import friends from "../friends.json";
-import transactions from "../transactions.json";
+import userData from "../../userData.json";
+import friends from "../../friends.json";
+import transactions from "../../transactions.json";
 
 import css from "./App.module.css";
 
